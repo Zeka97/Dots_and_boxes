@@ -1,0 +1,184 @@
+@media only screen and (min-device-width: 500px) {
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.igra-page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("../Pocetna/pozadina.svg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+}
+.igra-page .naslov{
+    height: 75px;
+    color: white;
+    font-size: 30px;
+}
+
+
+.maincontent{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.igrac{
+    color: white;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.igrac #player1{
+    color: yellow;
+    font-size: 50px;
+}
+.igrac #player2{
+    color:red;
+    font-size: 50px;
+}
+.igrac .igrac2{
+    color: red;
+    font-size: 30px;
+}
+.igrac .igrac1{
+    color: yellow;
+    font-size: 30px;
+}
+#player1pts{
+    color: yellow;
+    font-size: 34px;
+}
+
+
+.igra-page canvas{
+    background-color: rgb(27, 41, 85);
+    cursor:crosshair;
+}
+.buttons{
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttons a{
+    text-decoration: none;
+
+}
+.btn{
+    height: 50px;
+    width: 150px;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(48, 48, 136);
+    background-color: rgb(43, 43, 128);
+
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+}
+
+@media only screen and (max-device-width: 500px) {
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .igra-page{
+        height: 100vh;
+        width: 100vw;
+        background-image: url("../Pocetna/pozadina.svg");
+        background-size: cover;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .igra-page .naslov{
+        height: 75px;
+        color: white;
+        font-size: 30px;
+    }
+    
+    
+    .maincontent{
+        height: 60%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    .igrac{
+        color: white;
+        height: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .igrac #player1{
+        color: yellow;
+        font-size: 20px;
+    }
+    .igrac #player2{
+        color:red;
+        font-size: 20px;
+    }
+    .igrac .igrac2{
+        color: red;
+        font-size: 20px;
+    }
+    .igrac .igrac1{
+        color: yellow;
+        font-size: 20px;
+    }
+    #player1pts{
+        color: yellow;
+        font-size: 20px;
+    }
+    
+    
+    .igra-page canvas{
+        background-color: rgb(27, 41, 85);
+        cursor:crosshair;
+    }
+    .buttons{
+        height: 50px;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .buttons a{
+        text-decoration: none;
+    
+    }
+    .btn{
+        height: 100px;
+        width: 200px;
+        border: none;
+        border-radius: 15px;
+        background: transparent;
+        color: white;
+        border: 1px solid rgb(48, 48, 136);
+        background-color: rgb(43, 43, 128);
+        font-size: 30px;
+    
+    }
+    .btn:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    }

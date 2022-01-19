@@ -1,0 +1,44 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <link rel="stylesheet" href="novaigra.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <script type="text/javascript" src="index.js"></script>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+
+    <body>
+        <div class="novaigrapage">
+            <img src="../Pocetna/logo.svg" alt="logo" height="150px">
+            <header class="naslov">Igra sa dva igraca</header>
+
+            <div class="mainbox">
+                <div class="igrac1">
+                    <label>IGRAC 1:</label>
+                    <input type="text" id="igrac1" name="igrac1" required>
+                </div>
+                <div class="igrac2">
+                    <label>IGRAC2:</label>
+                    <input type="text" id="igrac2" name="igrac2" required>
+                </div>
+                <div class="dimenzije">
+                    <span>DIMENZIJE</span>
+                    <select class="dropdown" id="dimenzija">
+                        <option>8</option>
+                        <option>10</option>
+                        <option>12</option>
+                    </select>
+                </div>
+                <div class="buttondiv">
+                    <a href="../Pocetna/pocetna.html"><button class="nazadnapocetnu">Nazad na pocetnu</button></a>
+                    <a href="../Igra/index.html"><button class="btn" onclick="handleSubmit()">POKRENI</button></a>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>
+
+ 

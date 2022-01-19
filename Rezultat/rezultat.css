@@ -1,0 +1,100 @@
+@media only screen and (min-width: 700px) {
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.rezultatpage{
+    height: 100%;
+    width: 100%;
+    background-image: url('../Pocetna/pozadina.svg');
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+.pobjednik{
+    width: 100%;
+    height: auto;
+    margin-top: 10%;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+}
+.buttons{
+    height: 50px;
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+
+}
+.buttons a{
+    text-decoration: none;
+
+}
+.btn{
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: transparent;
+    color: white;
+    border: 1px solid rgb(48, 48, 136);
+    background-color: rgb(43, 43, 128);
+
+}
+.btn:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .rezultatpage{
+        height: 100%;
+        width: 100%;
+        background-image: url('../Pocetna/pozadina.svg');
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    .pobjednik{
+        width: 100%;
+        height: auto;
+        margin-top: 35%;
+        font-size: 30px;
+        display: flex;
+        justify-content: center;
+    }
+    .buttons{
+        height: 50px;
+        margin-top: 50px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .buttons a{
+        text-decoration: none;
+    
+    }
+    .btn{
+        height: 50px;
+        border: none;
+        border-radius: 3px;
+        background: transparent;
+        color: white;
+        border: 1px solid rgb(48, 48, 136);
+        background-color: rgb(43, 43, 128);
+        font-size: 10px;
+    
+    }
+    .btn:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    }

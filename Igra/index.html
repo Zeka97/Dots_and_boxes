@@ -1,0 +1,35 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+        <meta charset="UTF-8">
+    </head>
+
+
+    <body>
+        <div class="igra-page">
+            <img src="../Pocetna/logo.svg" alt="logo" height="150px">
+            <div class="maincontent">
+                <div class="igrac">
+                    <span id="player1"></span>
+                    <p class="igrac1">POENI: <span id="player1pts"></span></p>
+                </div>
+                <canvas></canvas>
+                <div class="igrac">
+                    <span id="player2"></span>
+                    <p class="igrac2">POENI: <span id="player2pts"></span></p>
+                </div>
+            </div>
+        <div class="buttons">
+            <a href="../NovaIgra/novaigra.html"><button class="btn">Nova Igra</button></a>
+            <button id="restartgame" onclick="restart()" class="btn">Restart</button>
+            <button id="forfeit" class="btn" onclick="forfeit()">Predaj Match</button>
+        </div>
+        </div>
+        <script src="game.js"></script>
+    </body>
+
+
+
+</html>

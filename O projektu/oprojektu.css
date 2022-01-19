@@ -1,0 +1,132 @@
+@media only screen and (min-width: 700px) {
+body{
+    margin: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.oprojektupage{
+    min-height: 100%;
+    width: 100%;
+    background-image: url("../Pocetna/pozadina.svg");
+    background-size: cover;
+    background-position: center;
+}
+.oprojektupageimg{
+    justify-self: center;
+}
+.naslov{
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+.maincontent{
+    height: auto;
+    color: white;
+    margin-left: 20%;
+    width: 60%;
+    font-size: 20px;
+}
+.maincontent span{
+    text-decoration: underline;
+    color:yellow
+}
+.maincontent span:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+.maincontent ul{
+    margin: 0;
+}
+.maincontent ul p{
+    font-weight: bold;
+}
+.kontaktinfo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+}
+.kontaktinfo img:hover{
+    cursor: pointer;
+    opacity: 0.5;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    body{
+        margin: 0;
+        color: white;
+        font-family: 'Poppins', sans-serif;
+    }
+    .oprojektupage{
+        height: auto;
+        width: 100%;
+        background-image: url("../Pocetna/pozadina.svg");
+        background-size: cover;
+        background-position: center;
+    }
+    .oprojektupageimg{
+        justify-self: center;
+    }
+    .naslov{
+        height: 20%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 24px;
+        margin-bottom: 30px;
+    }
+    .naslov img{
+        height: 100px;
+    }
+    .maincontent{
+        height: auto;
+        color: white;
+        margin-left: 20%;
+        width: 60%;
+        font-size: 20px;
+    }
+    .maincontent span{
+        width: 100%;
+        text-decoration: underline;
+        color:yellow
+    }
+    .maincontent span:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    .maincontent ul{
+        padding-left: 0;
+        margin:0;
+    }
+    .maincontent ul p{
+        font-weight: bold;
+        font-size: 15px;
+    }
+    .maincontent ul li{
+        font-size: 15px;
+    }
+    .maincontent ul ul{
+        padding-left: 15px;
+    }
+    .kontaktinfo{
+        width: 100%;
+        height: 100px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .kontaktinfo img{
+        width: 30px;
+        height: 30px;
+    }
+    .kontaktinfo img:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+    }
